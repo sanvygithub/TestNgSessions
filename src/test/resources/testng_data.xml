@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="opencart data test Suite" verbose="4" thread-count="4" parallel="tests">
+
+	<test name="Open Cart Login Test">
+		<parameter name="url" value="https://naveenautomationlabs.com/opencart/index.php?route=account/login" />
+		<parameter name="browser" value="chrome" />
+
+		<classes>
+			<class name="mytests.LoginNegativeTest" />
+		</classes>
+	</test>
+
+</suite>

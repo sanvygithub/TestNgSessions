@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="opencart data test Suite" verbose="4" thread-count="4" parallel="tests">
+
+	<!-- <test name="Open Cart Search Test"> <parameter name="url" value="https://naveenautomationlabs.com/opencart/" 
+		/> <parameter name="browser" value="chrome" /> <classes> <class name="mytests.SearchTest" 
+		/> </classes> </test> -->
+
+
+	<test name="Open Cart Register Test">
+		<parameter name="url" value="https://naveenautomationlabs.com/opencart/index.php?route=account/register" />
+		<parameter name="browser" value="chrome" />
+		<parameter name="headless" value="true" />
+		
+
+
+		<classes>
+			<class name="mytests.RegisterTest" />
+		</classes>
+	</test>
+
+
+</suite>
