@@ -13,7 +13,6 @@ public class DropDownWithNoSelectClass {
 	public static void main(String[] args) {
 		 driver=new ChromeDriver();
 		
-		driver = new ChromeDriver();
 		driver.get("https://www.orangehrm.com/orangehrm-30-day-trial/?");
 		
 //		List<WebElement>CountryList=driver.findElements(By.xpath("//select[@id='Form_getForm_Country']/option"));

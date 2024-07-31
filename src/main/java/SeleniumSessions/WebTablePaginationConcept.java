@@ -11,6 +11,8 @@ public class WebTablePaginationConcept {
 	static WebDriver driver;
 
 	public static void main(String[] args) throws InterruptedException {
+		
+		//System.setProperty("webdriver.chrome.driver", "C:\\Users\\DELL\\Downloads\\chromedriver.exe");
 
 		driver = new ChromeDriver();
 		driver.get("https://selectorshub.com/xpath-practice-page/");

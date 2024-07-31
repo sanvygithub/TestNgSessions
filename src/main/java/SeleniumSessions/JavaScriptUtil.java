@@ -57,7 +57,7 @@ public class JavaScriptUtil {
 	
 	public void generateConfirmPopUp(String message) {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
-		js.executeScript("confirm('" + message + "')");
+ 		js.executeScript("confirm('" + message + "')");
 	}
 
 	public String getPageInnerText() {

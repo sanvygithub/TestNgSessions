@@ -40,8 +40,9 @@ public class JqueryDropDown_AllSelection_NoSelect {
 	/**
 	 * this method is handling single, multiple and all choices selection this
 	 * method is also handling if choice is not available please pass the choices
-	 * which are present in case of multiple choice selection
-	 * please pass"all"(identifier)in case of all selection 
+	 * which are present in case of multiple choice selection please
+	 * pass"all"(identifier)in case of all selection
+	 * 
 	 * @param locator
 	 * @param value
 	 */
@@ -65,13 +66,15 @@ public class JqueryDropDown_AllSelection_NoSelect {
 
 			}
 
-		} else {
+		} 
+		else {
 			try {
 				for (WebElement e : choices) {
 					e.click();
 					flag = true;
 				}
-			} catch (Exception e) {
+			} 
+			catch (Exception e) {
 
 			}
 
